@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		193611852895793E0038CFCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193611842895793E0038CFCD /* AppDelegate.swift */; };
+		193611872895793E0038CFCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193611862895793E0038CFCD /* SceneDelegate.swift */; };
+		193611892895793E0038CFCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193611882895793E0038CFCD /* ViewController.swift */; };
+		1936118C2895793E0038CFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1936118A2895793E0038CFCD /* Main.storyboard */; };
+		1936118E289579410038CFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1936118D289579410038CFCD /* Assets.xcassets */; };
+		19361191289579410038CFCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1936118F289579410038CFCD /* LaunchScreen.storyboard */; };
+		1936119C289579420038CFCD /* AURUMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936119B289579420038CFCD /* AURUMTests.swift */; };
+		193611A6289579420038CFCD /* AURUMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193611A5289579420038CFCD /* AURUMUITests.swift */; };
+		193611A8289579420038CFCD /* AURUMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193611A7289579420038CFCD /* AURUMUITestsLaunchTests.swift */; };
+		193611B7289582AC0038CFCD /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 193611B6289582AC0038CFCD /* background.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19361198289579420038CFCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193611792895793E0038CFCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 193611802895793E0038CFCD;
+			remoteInfo = AURUM;
+		};
+		193611A2289579420038CFCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193611792895793E0038CFCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 193611802895793E0038CFCD;
+			remoteInfo = AURUM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		193611812895793E0038CFCD /* AURUM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AURUM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		193611842895793E0038CFCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		193611862895793E0038CFCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		193611882895793E0038CFCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1936118B2895793E0038CFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1936118D289579410038CFCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19361190289579410038CFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19361192289579410038CFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19361197289579420038CFCD /* AURUMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AURUMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1936119B289579420038CFCD /* AURUMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AURUMTests.swift; sourceTree = "<group>"; };
+		193611A1289579420038CFCD /* AURUMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AURUMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		193611A5289579420038CFCD /* AURUMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AURUMUITests.swift; sourceTree = "<group>"; };
+		193611A7289579420038CFCD /* AURUMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AURUMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		193611B6289582AC0038CFCD /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1936117E2895793E0038CFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19361194289579420038CFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1936119E289579420038CFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		193611782895793E0038CFCD = {
+			isa = PBXGroup;
+			children = (
+				193611832895793E0038CFCD /* AURUM */,
+				1936119A289579420038CFCD /* AURUMTests */,
+				193611A4289579420038CFCD /* AURUMUITests */,
+				193611822895793E0038CFCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		193611822895793E0038CFCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				193611812895793E0038CFCD /* AURUM.app */,
+				19361197289579420038CFCD /* AURUMTests.xctest */,
+				193611A1289579420038CFCD /* AURUMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		193611832895793E0038CFCD /* AURUM */ = {
+			isa = PBXGroup;
+			children = (
+				193611842895793E0038CFCD /* AppDelegate.swift */,
+				193611862895793E0038CFCD /* SceneDelegate.swift */,
+				193611882895793E0038CFCD /* ViewController.swift */,
+				1936118A2895793E0038CFCD /* Main.storyboard */,
+				1936118D289579410038CFCD /* Assets.xcassets */,
+				1936118F289579410038CFCD /* LaunchScreen.storyboard */,
+				19361192289579410038CFCD /* Info.plist */,
+				193611B6289582AC0038CFCD /* background.jpeg */,
+			);
+			path = AURUM;
+			sourceTree = "<group>";
+		};
+		1936119A289579420038CFCD /* AURUMTests */ = {
+			isa = PBXGroup;
+			children = (
+				1936119B289579420038CFCD /* AURUMTests.swift */,
+			);
+			path = AURUMTests;
+			sourceTree = "<group>";
+		};
+		193611A4289579420038CFCD /* AURUMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				193611A5289579420038CFCD /* AURUMUITests.swift */,
+				193611A7289579420038CFCD /* AURUMUITestsLaunchTests.swift */,
+			);
+			path = AURUMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		193611802895793E0038CFCD /* AURUM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193611AB289579420038CFCD /* Build configuration list for PBXNativeTarget "AURUM" */;
+			buildPhases = (
+				1936117D2895793E0038CFCD /* Sources */,
+				1936117E2895793E0038CFCD /* Frameworks */,
+				1936117F2895793E0038CFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AURUM;
+			productName = AURUM;
+			productReference = 193611812895793E0038CFCD /* AURUM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19361196289579420038CFCD /* AURUMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193611AE289579420038CFCD /* Build configuration list for PBXNativeTarget "AURUMTests" */;
+			buildPhases = (
+				19361193289579420038CFCD /* Sources */,
+				19361194289579420038CFCD /* Frameworks */,
+				19361195289579420038CFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19361199289579420038CFCD /* PBXTargetDependency */,
+			);
+			name = AURUMTests;
+			productName = AURUMTests;
+			productReference = 19361197289579420038CFCD /* AURUMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		193611A0289579420038CFCD /* AURUMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193611B1289579420038CFCD /* Build configuration list for PBXNativeTarget "AURUMUITests" */;
+			buildPhases = (
+				1936119D289579420038CFCD /* Sources */,
+				1936119E289579420038CFCD /* Frameworks */,
+				1936119F289579420038CFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				193611A3289579420038CFCD /* PBXTargetDependency */,
+			);
+			name = AURUMUITests;
+			productName = AURUMUITests;
+			productReference = 193611A1289579420038CFCD /* AURUMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		193611792895793E0038CFCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					193611802895793E0038CFCD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					19361196289579420038CFCD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 193611802895793E0038CFCD;
+					};
+					193611A0289579420038CFCD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 193611802895793E0038CFCD;
+					};
+				};
+			};
+			buildConfigurationList = 1936117C2895793E0038CFCD /* Build configuration list for PBXProject "AURUM" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 193611782895793E0038CFCD;
+			productRefGroup = 193611822895793E0038CFCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				193611802895793E0038CFCD /* AURUM */,
+				19361196289579420038CFCD /* AURUMTests */,
+				193611A0289579420038CFCD /* AURUMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1936117F2895793E0038CFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19361191289579410038CFCD /* LaunchScreen.storyboard in Resources */,
+				1936118E289579410038CFCD /* Assets.xcassets in Resources */,
+				1936118C2895793E0038CFCD /* Main.storyboard in Resources */,
+				193611B7289582AC0038CFCD /* background.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19361195289579420038CFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1936119F289579420038CFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1936117D2895793E0038CFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193611892895793E0038CFCD /* ViewController.swift in Sources */,
+				193611852895793E0038CFCD /* AppDelegate.swift in Sources */,
+				193611872895793E0038CFCD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19361193289579420038CFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1936119C289579420038CFCD /* AURUMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1936119D289579420038CFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193611A6289579420038CFCD /* AURUMUITests.swift in Sources */,
+				193611A8289579420038CFCD /* AURUMUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19361199289579420038CFCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 193611802895793E0038CFCD /* AURUM */;
+			targetProxy = 19361198289579420038CFCD /* PBXContainerItemProxy */;
+		};
+		193611A3289579420038CFCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 193611802895793E0038CFCD /* AURUM */;
+			targetProxy = 193611A2289579420038CFCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1936118A2895793E0038CFCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1936118B2895793E0038CFCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1936118F289579410038CFCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19361190289579410038CFCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		193611A9289579420038CFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		193611AA289579420038CFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		193611AC289579420038CFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8K499CN93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AURUM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vtorov.AURUM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		193611AD289579420038CFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8K499CN93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AURUM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vtorov.AURUM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		193611AF289579420038CFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8K499CN93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vtorov.AURUMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AURUM.app/AURUM";
+			};
+			name = Debug;
+		};
+		193611B0289579420038CFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8K499CN93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vtorov.AURUMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AURUM.app/AURUM";
+			};
+			name = Release;
+		};
+		193611B2289579420038CFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8K499CN93;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vtorov.AURUMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AURUM;
+			};
+			name = Debug;
+		};
+		193611B3289579420038CFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8K499CN93;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vtorov.AURUMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AURUM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1936117C2895793E0038CFCD /* Build configuration list for PBXProject "AURUM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193611A9289579420038CFCD /* Debug */,
+				193611AA289579420038CFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		193611AB289579420038CFCD /* Build configuration list for PBXNativeTarget "AURUM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193611AC289579420038CFCD /* Debug */,
+				193611AD289579420038CFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		193611AE289579420038CFCD /* Build configuration list for PBXNativeTarget "AURUMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193611AF289579420038CFCD /* Debug */,
+				193611B0289579420038CFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		193611B1289579420038CFCD /* Build configuration list for PBXNativeTarget "AURUMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193611B2289579420038CFCD /* Debug */,
+				193611B3289579420038CFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 193611792895793E0038CFCD /* Project object */;
+}
